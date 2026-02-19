@@ -1,0 +1,14 @@
+[package]
+name = "production"
+version = "0.1.0"
+edition = "2021"
+description = "Day 7 — Testing, observability, graceful shutdown"
+
+[dependencies]
+axum = { version = "0.8", features = ["json", "macros"] }
+tokio = { version = "1", features = ["full", "signal"] }
+tower = "0.5"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
