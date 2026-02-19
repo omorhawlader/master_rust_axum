@@ -27,21 +27,6 @@ Each folder has:
 2. Do the **project** in that folder (concepts for that day only).
 3. Repeat for 02–07. Each project uses all previous days’ topics.
 
-## Push this folder to GitHub
-
-This folder is a **separate git repo** so you can push only the learning plans:
-
-```bash
-cd Axum_learn_plans
-git init
-git add .
-git commit -m "Initial: Axum learn plans 01–07"
-git remote add origin https://github.com/YOUR_USER/YOUR_REPO.git
-git push -u origin main
-```
-
-Create the GitHub repo first (empty, no README), then run the commands above. Use `main` or `master` to match your default branch.
-
 ## Other files
 
 - **day_1.md** — Day 1 learning plan (source for 01-foundation).

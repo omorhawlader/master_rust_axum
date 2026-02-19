@@ -19,3 +19,4 @@ Thumbs.db
 
 # Local notes (keep plans)
 # *.md is not ignored so README and docs are tracked
+*.history
